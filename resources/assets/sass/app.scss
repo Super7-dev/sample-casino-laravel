@@ -1,0 +1,83 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+    background-color: white;
+}
+
+.center-content {
+    text-align: center;
+}
+.pull-right {
+    text-align: right;
+}
+.font-white {
+    color:white;
+}
+
+.top-gap {
+    margin-top: 2%;
+}
+.bottom-gap {
+    margin-bottom: 2%;
+}
+.pointer {
+    cursor: pointer;
+}
+.message-container {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.success-message-color {
+    color: #2780e3;
+}
+
+.error-message-color {
+    color: #ff7518;
+}
+.game-container {
+    // font-family: Arial, Helvetica, sans-serif;
+    .game-title {
+        font-size: 35px;
+        font-weight: 600;
+        
+        a {
+            color: white !important;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .game-description {
+        text-indent: 5%;
+        text-align: justify;
+        margin-top: 2%;
+        line-height: 175%;
+    }
+
+    .game-current-balance {
+        font-size: 21px;
+        .balance {
+            font-weight: 700;
+        }
+
+        .withdraw-balance {
+            color: white !important;
+            font-weight: 700;
+        }
+    }
+}
+
+.deposit-container {
+    border: 2px solid cornflowerblue;
+
+
+}
